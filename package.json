@@ -1,0 +1,11 @@
+{
+  "name": "giao-hook",
+  "version": "1.0.2",
+  "description": "解决useEffect闭包陷阱问题，畅快拿到最新变更的state",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vear",
+  "license": "MIT"
+}
