@@ -6,6 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vearvip/giao-hook"
+  },
+  "keywords": [
+    "react hooks 陷阱",
+    "闭包陷阱",
+    "Trap closure",
+    "Hooks closure",
+    "useEffect closure"
+  ],
   "author": "vear",
   "license": "MIT"
 }
