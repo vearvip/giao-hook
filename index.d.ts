@@ -19,7 +19,7 @@ export function useCallbackState(initState) {
   ];
 }
 
-export function useAsyncGetState(initState) {
+export function useAsyncGetState(initState?: any) {
   const dataRef = useRef(initState);
   const [data, setData] = useCallbackState(initState);
 
