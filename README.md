@@ -11,7 +11,7 @@ $ npm i @vearvip/giao-hook --save
 ## Usage
 ```jsx
 import React, { useEffect, useState } from 'react'
-import { useAsyncGetState } from 'giao-hook' 
+import { useAsyncGetState } from '@vearvip/giao-hook' 
 
 function App() {
   const [count1, setCount1, getCount1] = useAsyncGetState(10)
