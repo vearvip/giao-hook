@@ -1,6 +1,6 @@
 {
   "name": "@vearvip/giao-hook",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "解决useEffect闭包陷阱问题，畅快拿到最新变更的state",
   "files": [
     "esm",
