@@ -1,4 +1,14 @@
-## usage
+# @vearvip/giao-hook
+
+组件功能描述
+
+## Install
+
+```bash
+$ npm i @vearvip/giao-hook --save
+```
+
+## Usage
 ```jsx
 import React, { useEffect, useState } from 'react'
 import { useAsyncGetState } from 'giao-hook' 
