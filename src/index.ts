@@ -38,4 +38,23 @@ export function useAsyncGetState(initState) {
     },
     () => dataRef.current
   ];
+} 
+
+export const useSignal = (initialState) => {
+  const [state, setState] = useState(initialState)
+  const stateRef = useRef(initialState)
+
+  const getState = () => stateRef.current
+
+  const editState = (newState) => {
+    setState(newState)
+
+    if (typeof newState === 'function'){
+      stateRef.current = newState(stateRef.current)
+    } else {
+      stateRef.current = newState
+    } 
+  }
+
+  return [state, editState, getState]
 }
